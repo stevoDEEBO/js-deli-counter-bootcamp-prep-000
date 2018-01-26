@@ -25,7 +25,7 @@ function currentLine (katzDeliLine) {
   
   else {
     const currList = []
-    let i = 0
+    let i = 1
     while (i < katzDeliLine.length) {
       currList.push(katzDeliLine.indexOf(i) + ". " + katzDeliLine[i])
       i++
