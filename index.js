@@ -27,9 +27,9 @@ function currentLine (katzDeliLine) {
     const currList = []
     let i = 0
     while (i < katzDeliLine.length) {
-      currList.push(i+1 + ". " + katzDeliLine[i]) + " "
+      currList.push(" " + i+1 + ". " + katzDeliLine[i])
       i++
     }
-    return "The line is currently: " + currList
+    return "The line is currently:" + currList
   }
 }
