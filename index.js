@@ -13,8 +13,8 @@ function nowServing (katzDeliLine) {
   
   else {
     return "Currently serving " + katzDeliLine[0] + "."
-    return katzDeliLine.slice(1)
   }
+  return katzDeliLine.slice(1)
 }
 
 function currentLine (katzDeliLine) {
