@@ -24,9 +24,8 @@ function currentLine (katzDeliLine) {
   }
   
   else {
-    for (var i = 0; i < katzDeliLine.length; i++) {
+    while (i < katzDeliLine.length) {
       const currList = []
-      var person = String(katzDeliLine.indexOf(i) + ". " + katzDeliLine[i]) + ", "
       currList.push(person)
       return "The line is currently: " + currList
     }
